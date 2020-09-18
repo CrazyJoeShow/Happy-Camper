@@ -7,35 +7,6 @@
 // Parameters:
 // zip zip code
 
-document.ready(function) () {
-	console.log('the document is ready');
-};
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 $(document).ready(function () {
@@ -49,7 +20,7 @@ $(document).ready(function () {
 		"&api_key=" +
 		APIKey;
   
-		queryURL = "https://pokeapi.co/api/v2/pokemon/26"
+		// queryURL = "https://pokeapi.co/api/v2/pokemon/26"
   
 	  $.ajax({
 		url: queryURL,
@@ -61,9 +32,37 @@ $(document).ready(function () {
 		console.log(img);
   
 		// reach into the html and grap the el i want
-		$('#pkmn').attr('src', img);
+		// $('#pkmn').attr('src', img);
 	  });
   
 	}
 	getParkApi()
   });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
