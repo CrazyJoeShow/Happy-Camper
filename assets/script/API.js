@@ -28,8 +28,8 @@ $(document).ready(function () {
 	  }).then(function (response) {
 		console.log(response);
 		// response should hold the data for each park q'd
-		var img = response.sprites.front_default;
-		console.log(img);
+		// var img = response.sprites.front_default;
+		// console.log(img);
   
 		// reach into the html and grap the el i want
 		// $('#pkmn').attr('src', img);
